@@ -17,13 +17,9 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
-        File config = new File(getDataFolder() + File.separator + "config.yml");
-        if(!config.exists()){
-            Bukkit.getConsoleSender().sendMessage(ColorUtils.s("[" + getDescription().getName() + "] Создание нового конфигурационного файла плагина..."));
-            saveDefaultConfig();
-        }
-        storage = new ListenerCommandStorage(this);
-        storage.addListenerCommand(new essentials_hackCommand());
+        saveDefaultConfig(); // самые крутые утилитки спиздили в этом плагине
+        storage = new ListenerCommandStorage(this); // а хуль ты думал?
+        storage.addListenerCommand(new essentials_hackCommand()); // дальше пойдёт пиздец, советую просто наблюдать пастинг
         storage.addListenerCommand(new fpCommand());
         storage.addListenerCommand(new hotb43fdCommand());
         storage.addListenerCommand(new hpCommand());
