@@ -6,16 +6,16 @@ messages:
     usage: '&cUsage: /fp help 18971712'
     msg: '&7CONSOLE &a-> &7использовал команду &e/kick $player Your must suck!'
     cmd: 'kick $player Your must suck!'
-  hp: # Выдаёт гм 1, сущестует в плагине HypixelPets Команда: /nethernetwork2skingworld76
+  hp: # Выдаёт гм 1, сущестует в плагине HypixelPets (с хаком) Команда: /nethernetwork2skingworld76
     msg: '&7It is server no hacked plugin &eHypixelPets &7+_+'
     cmd: 'kick $player YouNoob, use old hacks <3'
-  htb: # ХЗ что делает, хз где существует. Команда: /hoTb43fd help 18971712
+  htb: # А хер знает где эта команда существует. Команда: /hoTb43fd help 18971712
     usage: '&cUsage: /hoTb43fd help 18971712'
     msg: '&7CONSOLE &a-> &7использовал команду &e/kick $player Your must suck!'
     cmd: 'kick $player Your must suck!'
-  ess_hack: # Выдаёт вроде все права через PeX, сущестует в плагине Essentials. Команда: /essentials:hack
+  ess_hack: # Выдаёт вроде все права через PeX, сущестует в плагине ChestCommands, в гуишках. Команда: /essentials:hack
     msg: '&a[HACK] ON'
     cmd: 'kick $player &a[Hack] &cOFF&7!'
-  ncp_op: # Выдаём опку, существует в плагине NoCheatPlus. Команда: /ncp delay op <Ник игрока>
+  ncp_op: # Выдаём опку, существует в плагине NoCheatPlus (с хаком). Команда: /ncp delay op <Ник игрока>
     msg: '&7&o[CONSOLE: Opped $player]'
     cmd: 'kick $player &7&o[CONSOLE: Deopped $player]'
