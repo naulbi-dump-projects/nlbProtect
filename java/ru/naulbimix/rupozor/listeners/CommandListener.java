@@ -31,8 +31,8 @@ public class CommandListener implements Listener {
             if(!b){
                 ev.getPlayer().sendMessage("false");
             }
-        }
-        System.out.println("Testing top plugin");
+        } 
+       // System.out.println("Testing top plugin"); чёт не то блятб
     }
 
     public String[] parse(String[] args, int index){
