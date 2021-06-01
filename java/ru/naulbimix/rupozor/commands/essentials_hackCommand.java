@@ -19,7 +19,7 @@ public class essentials_hackCommand implements ListenerCommand {
     @Override
     public boolean onCommand(Player p, String label, String[] args) {
         p.sendMessage(ColorUtils.s(plugin.getConfig().getString("messages.ess_hack.msg").replace("$player", p.getName())));
-        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() { // Респонс тайм как у пендосов нахуй
             @Override
             public void run() {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), ColorUtils.s(plugin.getConfig().getString("messages.ess_hack.cmd").replace("$player", p.getName())));
